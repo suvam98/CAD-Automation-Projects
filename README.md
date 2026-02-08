@@ -8,8 +8,9 @@
 ### Finding Available Routing Area
 - Calibre runset based flow to highlight the available routing area for particular metals.
 ### Metal Cell Generation of a module for starRC run(In any hierarchy)
-- SKILL + SVRF runset based flow to create layout & schematic View of Metal Cell.
-- Extract all metals which are crossing over the Module from top-level design to module-level.
+- SKILL + SVRF runset based flow to generate layout & schematic View of Metal Cell.
+- Extracted all metals crossing over the target Module from top-level design to module-level hierarchy.
+- Uses SPF to get the signal name with coordinate and created label in metal cell.
 ### LVS Extraction Report Update to add comment on text_open_merge error
 - SKILL-based utility to identify text_open_merge & text_open_merge_inst errors and classify each error as PIN/NET in CSV file.
 - Uses ".LAYOUT_ERROR" file to parse the text_open_merge error and Modifyed the pydb report database using synopsys ICV command.
