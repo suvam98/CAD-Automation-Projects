@@ -1,4 +1,6 @@
 # CAD Automation Projects
+### Signal wise Via Count
+- Calibre runset to trace the signal and give the count of various vias per signal, and report them in a DFM RDB.
 ### Calibre based Signal Tracer for specified signal
 - Wrote a SVRF runset to trace the input Signals and dump it in stream-in Library.
 - Uses SPF to get the signal coordinate for hierarchal signals using Python.
